@@ -287,7 +287,782 @@
                   <div class="panel-body">
                     <p>
                      
-						//idhar sare programs likhne hai........................................
+                        <details>
+                            <summary>
+                              <h3>1.Write a Java program to print ‘Hello World!’ on screen
+                            </h3>
+                              <!-- <img src="/javapro/basic program construct/bpc1.png" alt="" class="down-icon"> -->
+                              
+                            </summary>
+                            <div class="code-box">
+                                <p><b>Program:</b></p>
+                            <pre>
+                            <code>
+                                class Hello{
+                                    public static void main(String a[]){
+                                        System.out.print("Hello World!");
+                                    }
+                                }
+                                </code>
+                            </pre>
+                
+                            <p><b>Output: </b></p>
+                            <img src="/javapro/basic program construct/bpc1.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>2.Write a Java program to print the sum of two numbers
+                            </h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                                <p><b>Program:</b></p>
+                            <pre>
+                                <code>
+                                    class SumOfTwoNumbers{
+                                        static int sumOfTwoNumbers(int a, int b){
+                                            return (a+b);
+                                        }
+                                        
+                                        public static void main(String a[]){
+                                            System.out.print("Sum of Two numbers: "+ sumOfTwoNumbers(2,5));
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../javapro/basic program construct/bpc2.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                                <h3>3.Write a Java program that takes two numbers and display the product of two numbers.</h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                                <p><b>Program:</b></p>
+                            <pre>
+                                <code>
+                                    class ProductOfTwoNumbers{
+                                        static int productOfTwoNumbers(int a, int b){
+                                            return (a+b);
+                                        }
+                                    
+                                        public static void main(String a[]){
+                                            System.out.print("Sum of Two numbers: "+ productOfTwoNumbers(2,5));
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="/javapro/basic program construct/7034bpc3.png">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>4.Write a Java program to print the sum, multiply, subtract, divide and remainder of two numbers.</h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class Calculate{
+                                        static int SumTwoNumbers(int a, int b){
+                                            return (a+b);
+                                        }
+                                    
+                                        static int SubstractTwoNumbers(int a, int b){
+                                            return (a-b);
+                                        }
+                                    
+                                        static int MultiplyTwoNumbers(int a, int b){
+                                            return (a*b);
+                                        }
+                                    
+                                        static int DivideTwoNumbers(int a, int b){
+                                            return (a/b);
+                                        }
+                                    
+                                        static int RemainderTwoNumbers(int a, int b){
+                                            return (a%b);
+                                        }
+                                    
+                                        public static void main(String a[]){
+                                            System.out.print("Sum of Two numbers: "+ SumTwoNumbers(6,5));
+                                            System.out.print("\nSubstract of Two numbers: "+ SubstractTwoNumbers(6,5));
+                                            System.out.print("\nMultiply of Two numbers: "+ MultiplyTwoNumbers(6,5));
+                                            System.out.print("\nDivide Two numbers: "+ DivideTwoNumbers(6,5));
+                                            System.out.print("\nRemaider of Two numbers: "+ RemainderTwoNumbers(6,5));
+                                    
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="/javapro/basic program construct/bpc4.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>5.Write a Java program that takes five numbers as input to calculate and print the average of the numbers</h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                                <p><b>Program:</b></p>
+                            <pre>
+                                <code>
+                                    import java.util.Scanner;
+                                    class Average{
+                                        public static void main(String a[]){
+                                            Scanner in = new Scanner(System.in);
+                                       
+                                            System.out.print("Input first number: ");
+                                            int num1 = in.nextInt();
+                                            
+                                            System.out.print("Input second number: ");
+                                            int num2 = in.nextInt();
+                                            
+                                            System.out.print("Input third number: ");
+                                            int num3 = in.nextInt();
+                                            
+                                            System.out.print("Input fourth number: ");
+                                            int num4 = in.nextInt();
+                                            
+                                            System.out.print("Enter fifth number: ");
+                                            int num5 = in.nextInt();
+                                            
+                                            int avg = ((num1 + num2 + num3 + num4 + num5) / 5);
+                                            
+                                            System.out.println("Average of five numbers is: " + avg);
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="/javapro/basic program construct/7003BPC_5.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>6.Write a Java program to swap two variables</h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                                <p><b>Program:</b></p>
+                            <pre>
+                                <code>
+                                    class SwapTwoVariables{
+                                        public static void main(String a[]){
+                                    
+                                            int x = 1, y = 2;
+                                            
+                                            System.out.println("Before swap");
+                                            System.out.println("x = " + x + "\ny = " + y);
+                                    
+                                            int temp = x;
+                                            x = y;
+                                            y=temp;
+                                    
+                                            System.out.println("\n\nAfter swap");
+                                            System.out.println("x = " + x + "\ny = " + y);
+                                        }
+                                    }                    
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="/javapro/basic program construct/7074bpc6.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>7.Write a Java program to convert a decimal number to binary numbers</h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class DecimalToBinaryNumber{
+                                        static void decToBinary(int n)
+                                        {
+                                            for (int i = 3; i >= 0; i--) {
+                                                int k = n >> i;
+                                                if ((k & 1) > 0)
+                                                    System.out.print("1");
+                                                else
+                                                    System.out.print("0");
+                                            }
+                                        }
+                                        public static void main(String[] args)
+                                        {
+                                            int n = 1;
+                                            System.out.println("Decimal - " + n);
+                                            System.out.print("Binary - ");
+                                            decToBinary(n);
+                                        }
+                                    }
+                                    
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="/javapro/basic program construct/program7.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>8.Write a Java program to convert a binary number to decimal number</h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class BinaryToDecimal
+                                    {
+                                        public static void main(String argsp[]) throws NumberFormatException
+                                        {
+                                            // int ans =0;
+                                            java.util.Scanner sc = new java.util.Scanner(System.in);
+                                            System.out.print("Enter your binary number : ");
+                                            String binary=sc.next();
+                                    
+                                            //Using inbuilt functions.
+                                            int decimal=Integer.parseInt(binary,2);
+                                    
+                                            //Using while loop.
+                                    
+                                            /* while(binary!=0)
+                                            {
+                                                int digit = binary % 10;
+                                                if(digit == 1)
+                                                ans = ans + (int)(Math.pow(2,i));
+                                                binary = binary / 10;
+                                                i++;
+                                            }*/
+                                            System.out.println("Decimal number for Binary "+binary+" is "+decimal);
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="/javapro/basic program construct/bpc8.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>9.Write a Java program to check whether Java is installed on your computer or not</h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class Version{
+                                        public static void main(String a[]){
+                                            System.out.println("Java version: "+ System.getProperty("java.version"));
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="/javapro/basic program construct/bpc9.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>10.Write a Java program and compute the sum of the digits of an integer</h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class SumOfDigitNumbers{
+                                        public static void main(String[] args){
+                                            int num = 123;
+                                            int digit;
+                                            int sum = 0;
+                                    
+                                            while(num > 0){
+                                                digit = num % 10;
+                                                sum = sum + digit;
+                                                num = num/10;
+                                            }
+                                            System.out.println("Sum of digits: "+sum);
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="/javapro/basic program construct/bpc10.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>11.Write a Java program to compare two numbers</h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class CompareTwoNumbers{
+                                        public static void main(String args[]){
+                                            int num1 = 3;
+                                            int num2 = 5;
+                                    
+                                            if(num1 > num2){
+                                                System.out.println(num1 + " greater than " + num2);
+                                            }
+                                            else if(num1 < num2){
+                                                System.out.println(num1 + " less than " + num2);
+                                            }
+                                            else{
+                                                System.out.println("equal numbers");
+                                            }
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../images/1-tier.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>12.Write a Java program to count the letters, spaces, numbers and other characters of an input string
+                            </h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class TestInput{
+                                        public static void main(String[] args){
+                                            String test = "Aa kiu, I swd skieo 236587. GH kiu: sieo?? 25.33";
+                                            System.out.println("The string is : "+test);
+                                            count(test);
+                                        }
+                                    
+                                            public static void count(String x){
+                                                char[] ch = x.toCharArray();
+                                                int letter = 0;
+                                                int space = 0;
+                                                int num = 0;
+                                                int other = 0;
+                                                for(int i = 0; i < x.length(); i++){
+                                                    if(Character.isLetter(ch[i])){
+                                                        letter ++ ;
+                                                    }
+                                                    else if(Character.isDigit(ch[i])){
+                                                        num ++ ;
+                                                    }
+                                                    else if(Character.isSpaceChar(ch[i])){
+                                                        space ++ ;
+                                                    }
+                                                    else{
+                                                        other ++;
+                                                    }
+                                                }
+                                            
+                                            System.out.println("letter: " + letter);
+                                            System.out.println("space: " + space);
+                                            System.out.println("number: " + num);
+                                            System.out.println("other: " + other);
+                                        }  
+                                    }
+                                    
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../images/1-tier.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>13.Write a Java program to print the ascii value of a given character
+                            </h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class ASCII{
+                                        static int fuc(char s){
+                                            int num = s;
+                                            return num; 
+                                        }
+                                        public static void main(String a[]){
+                                            System.out.println(fuc('A'));
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../images/1-tier.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>14.Write a Java program that accepts an integer (n) and computes the value of n+nn+nnn
+                            </h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class NValue{
+                                        public static void main(String args[]){
+                                            int num = 5;
+                                            System.out.println(num+num*num+num*num*num);
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../images/1-tier.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>15.Write a Java program to display the system time
+                            </h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    // import java.lang.System;
+                                    import java.util.Calendar;
+                                    class CurrentTime{
+                                        public static void main(String a[]){
+                                            Calendar cal = Calendar.getInstance();
+                                            int hour=cal.get(Calendar.HOUR);
+                                            int minute=cal.get(Calendar.MINUTE);
+                                            System.out.println("Current Time is : "+hour+":"+minute);
+                                            // System.out.print(System.currentTimeMillis());
+                                        }
+                                    }
+                                    
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../images/1-tier.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>16.Write a Java program to print the odd numbers from 1 to 20
+                            </h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class PrintOddNumbers{
+                                        static void printOddNumbers(int n){
+                                            System.out.println("Odd Numbers:");
+                                            for(int i=1; i<=n; i++){
+                                                if (i%2 != 0){
+                                                    System.out.println(i);
+                                                }
+                                            }
+                                        }
+                                    
+                                        public static void main(String a[]){
+                                            printOddNumbers(20);
+                                        }
+                                    }
+                                    
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../images/1-tier.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>17.Write a Java program to print the even numbers from 1 to 20
+                            </h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class PrintEvenNumbers{
+                                        static void printEvenNumbers(int n){
+                                            System.out.println("Odd Numbers:");
+                                            for(int i=1; i<=n; i++){
+                                                if (i%2 == 0){
+                                                    System.out.println(i);
+                                                }
+                                            }
+                                        }
+                                    
+                                        public static void main(String a[]){
+                                            printEvenNumbers(20);
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../images/1-tier.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>18.Write a Java program to convert a string to an integer
+                            </h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class StringToInteger{
+                                        public static void main(String a[]){
+                                            String str = "7111";
+                                            int val = Integer.valueOf(str);
+                                            System.out.println(" Integer value = " + val);
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../images/1-tier.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>19.Write a Java program to convert seconds to hour, minute and seconds
+                            </h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class SecondsConveter{
+                                        public static void main(String args[]){
+                                            java.util.Scanner input = new java.util.Scanner(System.in);
+                                            System.out.print("Enter the number of seconds: ");
+                                            int totalSeconds = input.nextInt();
+                                    
+                                            int hours = totalSeconds / 3600;
+                                            System.out.println("Hours: " + hours);
+                                    
+                                            int remainingSeconds = totalSeconds % 3600;
+                                    
+                                            int minutes = remainingSeconds / 60;
+                                            System.out.println("Minutes: " + minutes);
+                                            
+                                            int seconds = remainingSeconds % 60;       
+                                            System.out.println("Seconds: " + seconds);
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../images/1-tier.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>20.Write a Java program to compute the sum of the first 100 prime numbers
+                            </h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class SumPrime{
+                                        public static void main(String a[]){
+                                            int sum = 0;
+                                            for(int i=2;i<=100;i++){
+                                                boolean flag=true;
+                                                for(int j=2;j<=i/2;j++){
+                                                    if(i%j==0){
+                                                        flag=false;
+                                                        break;
+                                                    }
+                                                }
+                                                if(flag){
+                                                    sum+=i;
+                                                }
+                                            }
+                                            System.out.println(sum);
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../images/1-tier.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>21.Write a Java program to swap the first and last elements of an array and create a new array
+                            </h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class SwapArrayElements{
+                                        public static void main(String a[]){
+                                            int arr[] = {1,2,3,4,3};
+                                    
+                                            System.out.println("Before swap");
+                                            for(int x: arr){
+                                                System.out.print(x);
+                                            }
+                                            System.out.println();
+                                    
+                                            int l = arr.length;
+                                            int s = l-1;
+                                    
+                                            int temp = 0 ;
+                                            temp = arr[0];
+                                            arr[0]=arr[s];
+                                            arr[s]=temp;
+                                    
+                                            System.out.println("\nAfter swapping");
+                                            for (int j:arr)System.out.print(j + " ");
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../images/1-tier.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>22. Program to Print Odd and Even Numbers from an array</h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    import java.util.Scanner;
+                                    class CountEvenOdd{
+                                        public static void main(String[] args) {
+                                            Scanner scanner = new Scanner(System.in);
+                                    
+                                            System.out.print("Enter the size of the array: ");
+                                            int size = scanner.nextInt();
+                                    
+                                            int[] arr = new int[size];
+                                    
+                                            System.out.println("Enter the elements of the array:");
+                                            for (int i = 0; i < size; i++) {
+                                                arr[i] = scanner.nextInt();
+                                            }
+                                    
+                                            int even = 0;
+                                            int odd = 0;
+                                    
+                                            for (int i = 0; i < size; i++) {
+                                                if (arr[i] % 2 == 0) {
+                                                    even++;
+                                                } else {
+                                                    odd++;
+                                                }
+                                            }
+                                            System.out.println("Number of even elements: " + even);
+                                            System.out.println("Number of odd elements: " + odd);
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../images/1-tier.png" alt="">  
+                            </div>
+                        </details>
+                
+                        <details>
+                            <summary>
+                              <h3>23. Write a Java program to compute the square root of an given integer</h3>
+                              <img src="../images/chevron-down.png" alt="" class="down-icon">
+                              
+                            </summary>
+                            <div class="code-box">
+                            <pre>
+                                <code>
+                                    class SquareRoot{
+                                        public static void main(String a[]){
+                                            double n = 2;
+                                            double sqr = Math.sqrt(n);
+                                            float ans = (float)sqr;
+                                            System.out.println(ans);
+                                        }
+                                    }
+                                </code>
+                            </pre>
+                
+                            <p style="text-align: left;"><b>Output: </b></p>
+                            <img src="../images/1-tier.png" alt="">  
+                            </div>
+                        </details>
+                
+                       
                     </p>
                   </div>
                 </div>
